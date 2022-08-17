@@ -1,0 +1,39 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgb(147, 219, 247), pink,rgb(255, 255, 255));
+  }
+  .ButtonF{
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 64);
+    border: 2px solid rgb(0, 255, 64);
+    position: absolute;
+    left: 190px;
+    margin: 50px;
+  }
+  .ButtonC{
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: rgb(255, 162, 0);
+    border: 2px solid rgb(255, 162, 0);
+    position: absolute;
+    right: 160px;
+    margin: 50px;
+  }
+  .Apps{
+    display: flex;
+    justify-content: center;
+  }
+  :hover.ButtonF{
+    background-color: greenyellow;
+    border: greenyellow;
+  }
+  :hover.ButtonC{
+    background-color: rgb(255, 213, 0);
+    border:rgb(255, 213, 0);
+  }
